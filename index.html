@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="section-1">
+            <div class="heading">Learn to code by watching others</div>
+            <p class="heading-paragraph">
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        </section>
+
+        <div class="desktop-section-wrapper">
+            <section class="section-2">
+                <div class="banner">
+                    Try it free 7 days <span>then $20/mo. thereafter</span>
+                </div>
+            </section>
+
+            <section class="form">
+                <form>
+                    <div class="input-wrapper">
+                        <input type="text" placeholder="First Name">
+                        <img src="images/icon-error.svg" alt="">
+                        <small class="error">First Name </small>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="text" placeholder="Last Name">
+                        <img src="images/icon-error.svg" alt="">
+                        <small class="error">Last Name</small>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <img src="images/icon-error.svg" alt="">
+                        <small class="error">asd</small>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <img src="images/icon-error.svg" alt="">
+                        <small class="error">Password</small>
+                    </div>
+                    <button id="submitForm">Claim your free trial</button>
+                    <small>By clicking the button, you are agreeing to our <a href="#"><span>Terms and Services</span></a></small>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/retorres9" target="_blank">@retorres9</a>.
+        </p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
